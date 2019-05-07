@@ -6,14 +6,14 @@ except ImportError:
 config = {
     'description': 'Skeleton Project',
     'author': 'indecipherable',
-    'url': 'NA.github.wat',
-    'download_url': 'NA.github.wat/skeleton',
+    'url': 'github.com',
+    'download_url': 'https://github.com/indecipherable/barebones',
     'author_email': 'bluemage@no-data.org',
     'version': '0.1',
-    'install_requires': ['nose'],
-    'packages': ['NAME'],           # refactor
-    'scripts': [],
-    'name': 'projectname'
+    'install_requires': ['python-nose'],
+    'packages': [''],           # refactor
+    'scripts': ['NA'],
+    'name': 'barebones'
 }
 
 setup(**config)
