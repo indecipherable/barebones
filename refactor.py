@@ -5,7 +5,13 @@ import os
 
 # this refactors project to project name
 def refac(final_name):
-  print(final_name)
+  print("Refactoring to " + final_name + "...")
+  for filename in os.listdir(os.getcwd()):
+    print(filename)
+    if filename == "barebones":
+      os.rename("barebones", filename)
+    else:
+      pass
 
 # this confirms user input for project name
 def get_in(this_project_name):
